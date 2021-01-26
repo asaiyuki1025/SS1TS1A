@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ジモタルメイン画面</title>
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <!-- アドレスバー等のブラウザのUIを非表示 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- default（Safariと同じ） / black（黒） / black-translucent（ステータスバーをコンテンツに含める） -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- ホーム画面に表示されるアプリ名 -->
+    <meta name="apple-mobile-web-app-title" content="ジモタル">
+    <!-- ホーム画面に表示されるアプリアイコン -->
+    <link rel="apple-touch-icon" href="img/aicon.jpg">
+        <!-- ウェブアプリマニフェストの読み込み -->
+    <link rel="manifest" href="manifest.json">
+    <!-- ServiceWorkerの登録 -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+              .then((reg) => {
+                console.log('Service worker registered.', reg);
+              });
+        }
+    </script>
+</head>
+    <style>
+        nav ul li a{
+        display: block;
+        background    : rgba(255, 255, 255, 0.10);
+        border-style: none;
+        width: 100%;
+        height: 100%;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #696969;
+	text-align: center;
+        }
+
+        .sample2{
+        font-size:15px;
+        }
+        .notice{
+            text-align: center;
+        }
+    </style>
+<body>
+    <div class="xx"> 
+        <div class="jimo"> <h1 class="dd">ジモタル</h1></div>
+        <nav class="aa" style="margin-bottom:100px">
+        <ul>
+            <li><a href="account.php">新規登録</a></li>
+            <li><a href="login.php">ログイン</a></li>
+            <li>  <form form method="POST" name="a_form" action="mypage.php">
+                <input id="userId" name="userId" type="hidden" value="">
+                <a href="#" onclick="document.a_form.submit()">マイページ</a>
+            </form></li>
+            <li><a href="listing.php">出品</a></li>
+        </ul>
+        </nav>
+    </div>
+<div class="yy">
+    <div class="mm">
+        <h2 class="ww">カテゴリー</h2>
+    </div>
+        <table>
+            <TR ALIGN=CENTER>
+            <td><a href="product.php?name=メンズ" class="sample2"><img class="cc"src="img/otoko.jpg" border="1">
+            <br>メンズ</a></td>
+            <td><a href="product.php?name=レディース" class="sample2"><img class="cc"src="img/onnna.jpg" border="1">
+            <br>レディース</a></td>
+            <td><a href="product.php?name=子供用品" class="sample2"><img class="cc"src="img/akachann.jpg" border="1">
+            <br>子供用品</a></td>
+            <td><a href="product.php?name=カメラ" class="sample2"><img class="cc"src="img/kamera.jpg" border="1">
+            <br>カメラ</a></td>
+            </TR>
+            <TR ALIGN=CENTER>
+            <td><a href="product.php?name=PC・家電" class="sample2"><img class="cc"src="img/pc.jpg" border="1">
+            <br>PC・家電</a></td>
+            <td><a href="product.php?name=アウトドア" class="sample2"><img class="cc"src="img/autodoa.jpg" border="1">
+            <br>アウトドア</a></td>
+            <td><a href="product.php?name=ホビー" class="sample2"><img class="cc"src="img/hoby.jpg" border="1">
+            <br>ホビー</a></td>
+            <td><a href="product.php?name=その他" class="sample2"><img class="cc"src="img/sonota.png" border="1">
+            <br>その他</a></td>
+            </TR>    
+        </table>
+    
+    <div>　
+        <div class='notice'><h2>出品禁止商品</h2></div>
+        <li>著作権物(本、漫画、映画DVDなど)</li>
+        <li>偽ブランド品</li>
+        <li>医薬品、医療機品</li>
+        <li>現金や金券類</li>
+        <li>盗難品や不正なルートで入手したもの</li>
+        <li>違法行為に利用される恐れがあるもの</li>
+        <li>クリーニング済みではない衣類</li>
+    </div>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+    <script src="index.js"></script>
+</body>

@@ -1,0 +1,323 @@
+@charset "utf-8";
+.dd{
+    color: #1e90ff;
+}
+
+.yy{
+     margin-left: 15%;   
+     margin-right: 15%;    
+   padding: 0; 
+    
+}
+
+.xx{
+     margin-left: 15%;  
+     margin-right: 15%; 
+     padding: 0; 
+
+    
+}
+.jimo{
+    float: left;
+}
+/* === 検索全体のBOX (サンプル用) ============================ */
+.sample3Area{
+  position       : relative; 
+   float: right;
+    padding-top: 20px;
+  width          : 600px;              /* BOXの幅               */
+  height         : 10px;               /* BOXの高さ             */
+  margin         : auto;               /* サンプルを中心に寄せ  
+  */letter-spacing : 0.1em;              /* 文字間隔              */
+  font-weight    : bold;               /* 太字                  */
+  line-height    : 0;                  /* 標準の行高さ          */
+}
+ 
+ /* === テキスト入力欄のSTYLE設定 ============================= */
+.sample3Text {
+  position       : absolute;
+  display        : block;              /* ブロック化            */
+  box-sizing     : border-box;         /* 枠線,余白を含んだ長さ */
+  height         : 40px;               /* BOXの高さ             */
+  width          : 100%;               /* テキスト入力の幅      */
+  margin         : 0;                  /* 外余白                */
+  padding        : 0 45px 0 8px;       /* 内余白                */
+  border         : 2px solid #666;     /* 枠線　幅,実践,色      */
+  border-radius  : 6px;                /* 角丸                  */
+  color          : #333;               /* 文字色                */
+  font-size      : 18px;               /* フォントサイズ        */
+  outline        : 0;                  /* 入力の薄い枠を非表示  */
+}
+ 
+ /* === 検索ボタン欄のSTYLE設定 =============================== */
+.sample3Button {
+     
+  position       : absolute;
+  box-sizing     : border-box;         /* 枠線,余白を含んだ長さ */
+  height         : 28px;               /* 入力の高さ            */
+  margin         : 0;                  /* 外余白                */
+  padding        : 6px 10px;           /* 内余白                */
+  top            : 26px;                /* ボタン表示位置(上)    */
+  right          : 6px;                /* ボタン表示位置(右)    */
+  border         : none;               /* 枠線　幅,実践,色      */
+  border-radius  : 6px;                /* 右上下の角丸          */
+  background     : #666;               /* ボタンの色            */
+  color          : #fff;               /* 文字色                */
+  cursor         : pointer;            /* カーソル設定          */
+}
+ 
+ /* === テキスト入力欄にフォーカスか来たとき ================== */
+.sample3Text:focus {
+  background     : #cfe7ff;            /* フォーカス時の背景色  */
+}
+ 
+ /* === 検索ボタン欄にフォーカスか来たとき ==================== */
+.sample3Button:hover {
+  background     : #333;               /* フォーカス時の背景色  */
+}
+ 
+ /* === 検索アイコンのSTYLE設定 =============================== */
+.sample3Img {
+  display        : inline-block;       /* インラインブロック化  */
+  width          : auto;               /* 幅は高さに合わせる    */
+  height         : 16px;               /* 画像の高さ            */
+  margin         : 0;                  /* 余白                  */
+  vertical-align : middle;             /* 横の文字位置          */
+}
+ 
+ /* === IEの入力エリア右側×消し ============================== */
+.sample3Text::-ms-clear {
+  display        : none;               /* ×を消す              */
+}
+.aa{
+border-bottom: 5px solid #ccc;
+position: relative;
+    clear: both;
+}
+nav ul{
+position: absolute;
+left:10%;
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+}
+/*
+nav ul li a{
+display: block;
+width: 100%;
+height: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+*/
+nav ul li a{
+display: block;
+background    : rgba(255, 255, 255, 0.10);
+border-style: none;
+width: 100%;
+height: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+}
+nav ul li.current{
+font-weight: bold;
+border-top: 5px solid #00B0F0;
+}
+
+nav ul li.current a{
+color: #00B0F0;
+}
+nav ul li a:hover{
+color: #0089BB;
+background-color: #FBFBDD;
+}
+
+nav ul li:hover{
+border-top: 5px solid #F8E750;
+}
+
+/*
+.pic_frame {
+      display: inline-block;
+      text-align: center;
+     
+    }
+*/
+
+.cc{
+     width:170px;
+     height:170px;
+/*     object-fit:cover;*/
+     margin:20px 20px;
+}
+.sample2{
+
+  color:black;
+  text-decoration: none;
+}
+
+/* マウスを載せたときの色を変更 */
+.sample2:hover {
+  color:blue;
+}
+h2 {
+  
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+h2:before, h2:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+}
+
+h2:before {
+  left:0;
+}
+h2:after {
+  right: 0;
+}
+.mm{
+    text-align: center;
+}
+
+
+/*スマホサイズ*/
+
+@media screen and (max-width: 480px) {
+ .dd{
+    color: #1e90ff;
+}
+
+h2{
+    text-align: center;
+}
+.yy{
+     margin-left: 0;  
+     margin-right: 0;    
+   padding: 0; 
+    
+}
+
+.xx{
+     margin-left: 0;   
+     margin-right: 0; 
+     padding: 0; 
+
+    
+}
+.jimo{
+    float: left;
+}
+
+.aa{
+
+border-bottom: 5px solid #ccc;
+position: relative;
+    clear: both;
+}
+nav ul{
+position: absolute;
+left:10%;
+display: table;
+margin: 0 auto;
+padding: 0;
+width: 80%;
+
+text-align: center;
+}
+nav ul li{
+display: table-cell;
+min-width: 50px;
+}
+
+nav ul li a{
+display: block;
+background    : rgba(255, 255, 255, 0.10);
+border-style: none;
+width: 100%;
+height: 100%;
+padding: 10px 0;
+text-decoration: none;
+color: #aaa;
+font-size: 15px;
+}
+nav ul li.current{
+font-weight: bold;
+border-top: 5px solid #00B0F0;
+}
+
+nav ul li:hover{
+border-top: 5px solid #F8E750;
+}
+nav ul li.current a{
+color: #00B0F0;
+}
+nav ul li a:hover{
+color: #0089BB;
+background-color: #FBFBDD;
+border-style: none;
+}
+
+    a{
+        font-size: 10%;
+    }
+.cc{
+     width:74px;
+     height:74px;
+
+     margin:5px 5px;
+}
+.sample2{
+  color:black;
+  text-decoration: none;
+}
+
+.sample2:hover {
+  color:blue;
+}
+h2 {
+  
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+h2:before, h2:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+}
+
+h2:before {
+  left:0;
+}
+h2:after {
+  right: 0;
+}
+.mm{
+    text-align: center;
+}
+ p{
+    font-size: 10px;
+}
+}

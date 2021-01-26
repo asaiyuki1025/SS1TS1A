@@ -1,0 +1,129 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.zz{
+     width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.a{
+    text-align: center;
+}
+p{
+    font-size:25px;
+       margin-bottom: 80px;
+}
+
+form{
+    text-align: center;
+}
+
+.btn1,.btn2 {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 16px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 25px;
+    
+
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn1:hover,.btn2:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+   body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.zz{
+     width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+.a{
+    text-align: center;
+}
+p{
+    font-size:35px;
+       margin-bottom: 100px;
+}
+
+form{
+    text-align: center;
+}
+
+.btn1,.btn2 {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 30px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 30px;
+    
+
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn1:hover,.btn2:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+}
+

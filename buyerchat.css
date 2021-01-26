@@ -1,0 +1,273 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.nyuuryoku{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    margin: 0;
+}
+ 
+
+input[type="text"]{
+    float: left;
+    height: 35px;
+     width: 420px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+textarea,
+select{
+    width: 480px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+
+textarea{
+    height: 100px;
+}
+input[type="submit"]{
+            /* 文字サイズを1.4emに指定 */
+    font-size: 16px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 30px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    }
+button:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+    
+}
+input[type="submit"]:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+    }
+button{
+    /* 文字サイズを1.4emに指定 */
+    font-size: 16px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+.button-area{
+    text-align: center;
+}
+  .btn2{
+            /* 文字サイズを1.4emに指定 */
+    font-size: 16px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 60px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    }
+.btn2:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+    }
+.ss{
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+@charset "utf-8";
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.nyuuryoku{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+     margin-bottom: 75px;
+}
+p{
+    font-size: 23px;
+    margin: 0;
+}
+input[type="text"]{
+  width: 380px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+        padding: 15px;
+}
+
+textarea,
+select{
+    width: 480px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+        padding: 15px;
+
+}
+    select{
+        font-size: 28px;
+        padding: 15px;
+        height: 70px;
+    }
+textarea{
+    height: 300px;
+}
+
+button{
+    /* 文字サイズを1.4emに指定 */
+    font-size: 23px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 17px 17px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+    input[type="submit"]{
+            /* 文字サイズを1.4emに指定 */
+    font-size: 20px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 30px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    }
+button:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+    
+}
+input[type="submit"]:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+    }
+.button-area{
+    text-align: center;
+}
+.www{
+text-align: center;
+
+}

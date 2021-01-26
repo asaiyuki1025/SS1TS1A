@@ -1,0 +1,170 @@
+@charset "utf-8";
+body { /* ヘッダーの後ろに要素が隠れないようにするため */
+    margin:0;
+    background-color: #1e90ff;
+}
+
+    .ee{
+        text-align: center;
+    }
+
+.zz{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+
+
+
+
+/*
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+*/
+
+/*
+section img{
+    max-width: 100%;
+}
+*/
+
+.container{
+    width: 440px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+}
+,input[type="submit"]:hover{
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+ input[type="submit"]{
+        /* 文字サイズを1.4emに指定 */
+
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+        
+    }
+
+@media screen and (max-width: 480px) {
+    @charset "utf-8";
+    input[type="submit"]:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}  
+    input[type="submit"]{
+        /* 文字サイズを1.4emに指定 */
+    font-size: 15px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 20px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+        
+    }
+body {
+     
+    margin: 0;
+    background-color: #1e90ff;
+}
+
+h1{
+    font-size:25px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+
+/*
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+*/
+
+/*
+section img{
+    max-width: 100%;
+}
+*/
+
+/*
+.center{
+    margin: 0 auto 0 auto;
+    max-width: 90%;
+    width: 300px;
+}
+*/
+
+
+
+/*
+.check{
+   width:300px;
+}
+*/
+/*
+    section img {
+                max-width: 100%;
+            }
+*/
+            
+
+    .zz{
+    width: 260px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+    .ee{
+        text-align: center;
+    }
+}

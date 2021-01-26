@@ -1,0 +1,106 @@
+@charset "utf-8";
+body{
+    background-color: #1e90ff;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn {
+
+    /* 文字サイズを1.4emに指定 */
+    font-size: 16px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 25px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+.button-area{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+@charset "utf-8";
+body{
+    background-color: #1e90ff;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn {
+    /* 文字サイズを1.4emに指定 */
+    font-size: 50px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 25px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    /* 角丸の指定 */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+.button-area{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+
+}

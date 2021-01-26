@@ -1,0 +1,247 @@
+@charset "utf-8";
+body{
+     margin: 0;
+    background-color: #1e90ff;
+}
+.nyuuryoku{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    margin: 0;
+}
+
+textarea,
+select{
+    width: 480px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+select{
+    height: 35px;
+}
+.aa{
+     width: 480px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+    
+}
+
+textarea{
+    height: 100px;
+}
+
+
+
+input{
+    font-family: inherit;
+    font-size: 100%
+}
+input[type="submit"]{
+     width: auto;
+    /* ??????1.4em??? */
+    font-size: 16px;
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 9px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+    
+}
+.cc{
+    text-align: center;
+}
+input[id="submit"]:hover{
+    /* ???????????? */
+    background-color: #24d;
+
+    /* ????????? */
+    color: #fff;
+}
+.pp{
+    width: 190px;
+}
+.aaa{
+ 
+    /* ??????1.4em??? */
+    font-size: 16px;
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 9px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    @charset "utf-8";
+body{
+     margin: 0;
+    background-color: #1e90ff;
+}
+.nyuuryoku{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+p{
+    font-size: 23px;
+    margin: 0;
+}
+
+textarea{
+    width: 490px;
+    height: 300px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+    padding: 15px;
+}
+.aa{
+     width: 490px;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+    
+}
+    select{
+        font-size: 28px;
+        padding: 15px;
+        height: 70px;
+    }
+    .bb{
+        font-size: 28px;
+         padding: 15px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+    }
+    .pp{
+        width: 170px;
+        font-size: 28px;
+         padding: 15px;
+    font-family: 'M+ Type-1 (general-j) Regular';
+    }
+    .vv{
+      font-size: 28px;
+    
+    font-family: 'M+ Type-1 (general-j) Regular';  
+    }
+input{
+    font-family: inherit;
+    font-size: 100%
+}
+input[type="submit"]{
+     width: auto;
+    /* ??????1.4em??? */
+    font-size: 30px;
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 9px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+    
+}
+.cc{
+    text-align: center;
+}
+input[id="submit"]:hover{
+    /* ???????????? */
+    background-color: #24d;
+
+    /* ????????? */
+    color: #fff;
+}
+ .aaa{
+        /* ??????1.4em??? */
+    font-size: 23px;
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 20px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+        
+    }
+}

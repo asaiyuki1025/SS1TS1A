@@ -1,0 +1,212 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.zz{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size:22px;
+    text-align: center;
+}
+p{
+    font-size:16px;
+    margin: 0;
+}
+input[id="txtEmail"],
+input[id="txtPassword"]{
+    width: 490px;
+    font-size:16px;
+    margin-bottom: 20px;
+}
+.a{
+    text-align: center;
+}
+
+.b{
+    text-align: center;
+}
+
+.button-area{
+    text-align: center;
+}
+button{
+    /* 文字サイズを1.4emに指定 */
+    font-size: 16px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 49px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+    width: auto;
+}
+
+button:hover,
+input[id="submit"]:hover,
+input[type="submit"]:hover{
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+input[type="submit"]{
+      
+ /* 文字サイズを1.4emに指定 */
+   font-size: 16px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 11px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+        
+    }
+
+@media screen and (max-width: 480px) {
+    @charset "utf-8";
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.zz{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+h1{
+    font-size:35px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+p{
+    font-size:23px;
+    margin: 0;
+}
+input[id="txtEmail"],
+input[id="txtPassword"],
+input[id="submit"]{
+    width: 490px;
+    font-size:28px;
+    margin-bottom: 75px;
+    padding: 15px;
+}
+.a{
+    text-align: center;
+}
+
+.b{
+    text-align: center;
+}
+
+.button-area{
+    text-align: center;
+}
+button{
+    /* 文字サイズを1.4emに指定 */
+    font-size: 30px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 83px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+    width: auto;
+}
+
+button:hover,
+input[id="submit"]:hover
+input[type="submit"]:hover{
+    /* 背景色を明るい青色に指定 */
+    background-color: #24d;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+input[id="submit"]{
+     width: auto;
+    /* 文字サイズを1.4emに指定 */
+    font-size: 30px;
+
+    /* 文字の太さをboldに指定 */
+    font-weight: bold;
+
+    /* 縦方向に10px、
+     * 横方向に30pxの余白を指定 */
+    padding: 8px 9px;
+
+    /* 背景色を濃い青色に指定 */
+    background-color: #248;
+
+    /* 文字色を白色に指定 */
+    color: #fff;
+
+    /* ボーダーをなくす */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+    
+}
+   
+}
+    

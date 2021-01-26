@@ -1,0 +1,193 @@
+@charset "utf-8";
+h1{
+    font-size:22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    font-size:20px;
+    margin: 0;
+   
+}
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.mypage{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+.warning{
+    text-align: center;
+}
+button{
+    margin-bottom: 30px;
+     /* ??????1.4em??? */
+    font-size: 16px;
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 25px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+    
+}
+.ww{
+    text-align: center;
+}
+.gg{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+button:hover,input[type="submit"]:hover{
+    /* ???????????? */
+    background-color: #24d;
+
+    /* ????????? */
+    color: #fff;
+}
+ input[type="submit"]{
+        /* ??????1.4em??? */
+
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 20px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+        
+    }
+    .warning{
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+@charset "utf-8";
+    p{
+    font-size:33px;
+    margin: 0;
+   
+}
+    h1{
+    font-size:35px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+    .gg{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    button{
+        margin-bottom: 85px;
+     /* ??????1.4em??? */
+    font-size: 30px;
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 25px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+    
+}
+body{
+    margin: 0;
+    background-color: #1e90ff;
+}
+.mypage{
+    width: 570px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    font-family: 'M+ Type-1 (general-j) Regular';
+}
+    .ww{
+    text-align: center;
+}
+    button:hover,input[type="submit"]:hover{
+    /* ???????????? */
+    background-color: #24d;
+
+    /* ????????? */
+    color: #fff;
+}
+    .warning{
+    text-align: center;
+}
+ input[type="submit"]{
+        /* ??????1.4em??? */
+   font-size: 23px;
+
+    /* ??????bold??? */
+    font-weight: bold;
+
+    /* ????10px?
+     * ????30px?????? */
+    padding: 8px 20px;
+
+    /* ??????????? */
+    background-color: #248;
+
+    /* ????????? */
+    color: #fff;
+
+    /* ???????? */
+    border-style: none;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+        
+    }
+}
